@@ -8,11 +8,10 @@ namespace Project_4
         {
             List<Pay> P_list = new List<Pay>
             {
-                new Pay("Agent1", 100000),
-                new Pay("Agent1", 210002),
-                new Pay("Agent1", 99870),
-                new Pay("Agent2", 1500),
-                new Pay("Agent4", 9455),
+                new Pay("Client1", 1212),
+                new Pay("Client2", 21004),
+                new Pay("Client3", 45789),
+                new Pay("Client4", 13004),
             };
             Console.WriteLine("Введите имя контрагента: ");
             var contr = Console.ReadLine();
